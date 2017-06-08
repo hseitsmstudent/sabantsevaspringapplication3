@@ -8,6 +8,7 @@
 <p>People List</p>
 <ul>
     <li th:each="p:${peopleList}">
+        <p th:text="${p.firstName}"></p>
         <p th:text="${p.lastName}"></p>
     </li>
 </ul>
